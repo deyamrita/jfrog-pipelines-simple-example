@@ -18,7 +18,7 @@ pipelines:
       environmentVariables:
         readOnly:
           my_env_var: "hello"  
-    steps:
+   steps:
       - name: step_1
         type: Bash
         configuration:
